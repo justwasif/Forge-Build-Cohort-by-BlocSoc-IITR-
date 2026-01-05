@@ -4,7 +4,8 @@ function Footer(){
     return(
 
         <div className="flex-auto bg-red-700">
-            <h1>accounts</h1>
+            <h1>this is just footer nothing more (plz connect me on linkden )</h1>
+            <p>i wanted to add isactive so all the accounts like change to yellow but well i looks like it wont be possible </p>
             <div className="flex-auto ">
                 <li className="flex gap-6">  
                     <a href="https://github.com/justwasif">
