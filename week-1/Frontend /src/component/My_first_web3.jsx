@@ -7,6 +7,7 @@ function My_first_web3() {
   const [value, setvalue] = useState("");
   const [input, setinput] = useState("");
   const [account, setaccount] = useState("");
+  
 
   async function connet() {
     if (!window.ethereum) {
@@ -23,7 +24,7 @@ function My_first_web3() {
 
     const contr = new ethers.Contract(
       Contract_Adress,
-      Contract_abi,
+      Contract_abi.abi,
       signer
     );
 
@@ -46,7 +47,7 @@ function My_first_web3() {
 
       const contr = new ethers.Contract(
         Contract_Adress,
-        Contract_abi,
+        Contract_abi.abi,
         signer
       );
 
@@ -71,7 +72,7 @@ function My_first_web3() {
   }
 
   return (
-    <div>
+    <div className="bg-gray-600">
       <li>
         <h1>my first web 3 app</h1>
       </li>
