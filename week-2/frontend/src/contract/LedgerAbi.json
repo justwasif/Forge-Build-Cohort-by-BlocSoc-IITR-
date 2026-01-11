@@ -1,0 +1,61 @@
+//{"abi":[{"type":"function","name":"balance","inputs":[{"name":"user","type":"address","internalType":"address"}],"outputs":[{"name":"amount","type":"uint256","internalType":"uint256"}],"stateMutability":"view"},{"type":"function","name":"contractBalance","inputs":[],"outputs":[{"name":"","type":"uint256","internalType":"uint256"}],"stateMutability":"view"},{"type":"function","name":"deposit","inputs":[],"outputs":[],"stateMutability":"payable"},{"type":"function","name":"userBalance","inputs":[{"name":"_userAddress","type":"address","internalType":"address"}],"outputs":[{"name":"","type":"uint256","internalType":"uint256"}],"stateMutability":"view"}],"bytecode":{"object":"0x608060405234801561001057600080fd5b5061030f806100206000396000f3fe60806040526004361061003f5760003560e01c80630103c92b146100445780638b7afe2e14610081578063d0e30db0146100ac578063e3d670d7146100b6575b600080fd5b34801561005057600080fd5b5061006b60048036038101906100669190610215565b6100f3565b604051610078919061025b565b60405180910390f35b34801561008d57600080fd5b5061009661013b565b6040516100a3919061025b565b60405180910390f35b6100b4610143565b005b3480156100c257600080fd5b506100dd60048036038101906100d89190610215565b61019a565b6040516100ea919061025b565b60405180910390f35b60008060008373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff168152602001908152602001600020549050919050565b600047905090565b346000803373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff168152602001908152602001600020600082825461019191906102a5565b92505081905550565b60006020528060005260406000206000915090505481565b600080fd5b600073ffffffffffffffffffffffffffffffffffffffff82169050919050565b60006101e2826101b7565b9050919050565b6101f2816101d7565b81146101fd57600080fd5b50565b60008135905061020f816101e9565b92915050565b60006020828403121561022b5761022a6101b2565b5b600061023984828501610200565b91505092915050565b6000819050919050565b61025581610242565b82525050565b6000602082019050610270600083018461024c565b92915050565b7f4e487b7100000000000000000000000000000000000000000000000000000000600052601160045260246000fd5b60006102b082610242565b91506102bb83610242565b92508282019050808211156102d3576102d2610276565b5b9291505056fea26469706673582212209d59b087658b7a41e50e3e1aed3f9752c69f45757a5816e8365f9105fa1a6fcf64736f6c63430008130033","sourceMap":"77:399:21:-:0;;;;;;;;;;;;;;;;;;;","linkReferences":{}},"deployedBytecode":{"object":"0x60806040526004361061003f5760003560e01c80630103c92b146100445780638b7afe2e14610081578063d0e30db0146100ac578063e3d670d7146100b6575b600080fd5b34801561005057600080fd5b5061006b60048036038101906100669190610215565b6100f3565b604051610078919061025b565b60405180910390f35b34801561008d57600080fd5b5061009661013b565b6040516100a3919061025b565b60405180910390f35b6100b4610143565b005b3480156100c257600080fd5b506100dd60048036038101906100d89190610215565b61019a565b6040516100ea919061025b565b60405180910390f35b60008060008373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff168152602001908152602001600020549050919050565b600047905090565b346000803373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff168152602001908152602001600020600082825461019191906102a5565b92505081905550565b60006020528060005260406000206000915090505481565b600080fd5b600073ffffffffffffffffffffffffffffffffffffffff82169050919050565b60006101e2826101b7565b9050919050565b6101f2816101d7565b81146101fd57600080fd5b50565b60008135905061020f816101e9565b92915050565b60006020828403121561022b5761022a6101b2565b5b600061023984828501610200565b91505092915050565b6000819050919050565b61025581610242565b82525050565b6000602082019050610270600083018461024c565b92915050565b7f4e487b7100000000000000000000000000000000000000000000000000000000600052601160045260246000fd5b60006102b082610242565b91506102bb83610242565b92508282019050808211156102d3576102d2610276565b5b9291505056fea26469706673582212209d59b087658b7a41e50e3e1aed3f9752c69f45757a5816e8365f9105fa1a6fcf64736f6c63430008130033","sourceMap":"77:399:21:-:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;246:116;;;;;;;;;;;;;;;;;;;;;;;:::i;:::-;;:::i;:::-;;;;;;;:::i;:::-;;;;;;;;367:100;;;;;;;;;;;;;:::i;:::-;;;;;;;:::i;:::-;;;;;;;;161:80;;;:::i;:::-;;99:55;;;;;;;;;;;;;;;;;;;;;;;:::i;:::-;;:::i;:::-;;;;;;;:::i;:::-;;;;;;;;246:116;309:7;334;:21;342:12;334:21;;;;;;;;;;;;;;;;327:28;;246:116;;;:::o;367:100::-;414:7;439:21;432:28;;367:100;:::o;161:80::-;225:9;204:7;:19;212:10;204:19;;;;;;;;;;;;;;;;:30;;;;;;;:::i;:::-;;;;;;;;161:80::o;99:55::-;;;;;;;;;;;;;;;;;:::o;88:117:23:-;197:1;194;187:12;334:126;371:7;411:42;404:5;400:54;389:65;;334:126;;;:::o;466:96::-;503:7;532:24;550:5;532:24;:::i;:::-;521:35;;466:96;;;:::o;568:122::-;641:24;659:5;641:24;:::i;:::-;634:5;631:35;621:63;;680:1;677;670:12;621:63;568:122;:::o;696:139::-;742:5;780:6;767:20;758:29;;796:33;823:5;796:33;:::i;:::-;696:139;;;;:::o;841:329::-;900:6;949:2;937:9;928:7;924:23;920:32;917:119;;;955:79;;:::i;:::-;917:119;1075:1;1100:53;1145:7;1136:6;1125:9;1121:22;1100:53;:::i;:::-;1090:63;;1046:117;841:329;;;;:::o;1176:77::-;1213:7;1242:5;1231:16;;1176:77;;;:::o;1259:118::-;1346:24;1364:5;1346:24;:::i;:::-;1341:3;1334:37;1259:118;;:::o;1383:222::-;1476:4;1514:2;1503:9;1499:18;1491:26;;1527:71;1595:1;1584:9;1580:17;1571:6;1527:71;:::i;:::-;1383:222;;;;:::o;1611:180::-;1659:77;1656:1;1649:88;1756:4;1753:1;1746:15;1780:4;1777:1;1770:15;1797:191;1837:3;1856:20;1874:1;1856:20;:::i;:::-;1851:25;;1890:20;1908:1;1890:20;:::i;:::-;1885:25;;1933:1;1930;1926:9;1919:16;;1954:3;1951:1;1948:10;1945:36;;;1961:18;;:::i;:::-;1945:36;1797:191;;;;:::o","linkReferences":{}},"methodIdentifiers":{"balance(address)":"e3d670d7","contractBalance()":"8b7afe2e","deposit()":"d0e30db0","userBalance(address)":"0103c92b"},"rawMetadata":"{\"compiler\":{\"version\":\"0.8.19+commit.7dd6d404\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[{\"internalType\":\"address\",\"name\":\"user\",\"type\":\"address\"}],\"name\":\"balance\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"amount\",\"type\":\"uint256\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"contractBalance\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"deposit\",\"outputs\":[],\"stateMutability\":\"payable\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"address\",\"name\":\"_userAddress\",\"type\":\"address\"}],\"name\":\"userBalance\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"stateMutability\":\"view\",\"type\":\"function\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"src/Ledger.sol\":\"Ledger\"},\"evmVersion\":\"paris\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[\":forge-std/=lib/forge-std/src/\"]},\"sources\":{\"src/Ledger.sol\":{\"keccak256\":\"0xae04ed84702f428feea2bc6574499b2bfd7d53394be726c4fdb1ab87a0f7e0b8\",\"license\":\"SEE LICENSE IN LICENSE\",\"urls\":[\"bzz-raw://96888e6f8acc913549ff145376774cb82f094afa7f5e8b502ad40a3de2ae2358\",\"dweb:/ipfs/QmfHknUbfiGGU3JKNJWqm8bc5eMYPJeduHK6mDuZXLz93v\"]}},\"version\":1}","metadata":{"compiler":{"version":"0.8.19+commit.7dd6d404"},"language":"Solidity","output":{"abi":[{"inputs":[{"internalType":"address","name":"user","type":"address"}],"stateMutability":"view","type":"function","name":"balance","outputs":[{"internalType":"uint256","name":"amount","type":"uint256"}]},{"inputs":[],"stateMutability":"view","type":"function","name":"contractBalance","outputs":[{"internalType":"uint256","name":"","type":"uint256"}]},{"inputs":[],"stateMutability":"payable","type":"function","name":"deposit"},{"inputs":[{"internalType":"address","name":"_userAddress","type":"address"}],"stateMutability":"view","type":"function","name":"userBalance","outputs":[{"internalType":"uint256","name":"","type":"uint256"}]}],"devdoc":{"kind":"dev","methods":{},"version":1},"userdoc":{"kind":"user","methods":{},"version":1}},"settings":{"remappings":["forge-std/=lib/forge-std/src/"],"optimizer":{"enabled":false,"runs":200},"metadata":{"bytecodeHash":"ipfs"},"compilationTarget":{"src/Ledger.sol":"Ledger"},"evmVersion":"paris","libraries":{}},"sources":{"src/Ledger.sol":{"keccak256":"0xae04ed84702f428feea2bc6574499b2bfd7d53394be726c4fdb1ab87a0f7e0b8","urls":["bzz-raw://96888e6f8acc913549ff145376774cb82f094afa7f5e8b502ad40a3de2ae2358","dweb:/ipfs/QmfHknUbfiGGU3JKNJWqm8bc5eMYPJeduHK6mDuZXLz93v"],"license":"SEE LICENSE IN LICENSE"}},"version":1},"id":21}0x2524A762326faF1EBdDd1093F0779dfC7cCff6b1
+[
+	{
+		"inputs": [
+			{
+				"internalType": "address",
+				"name": "user",
+				"type": "address"
+			}
+		],
+		"name": "balance",
+		"outputs": [
+			{
+				"internalType": "uint256",
+				"name": "amount",
+				"type": "uint256"
+			}
+		],
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"inputs": [],
+		"name": "contractBalance",
+		"outputs": [
+			{
+				"internalType": "uint256",
+				"name": "",
+				"type": "uint256"
+			}
+		],
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"inputs": [],
+		"name": "deposit",
+		"outputs": [],
+		"stateMutability": "payable",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "address",
+				"name": "_userAddress",
+				"type": "address"
+			}
+		],
+		"name": "userBalance",
+		"outputs": [
+			{
+				"internalType": "uint256",
+				"name": "",
+				"type": "uint256"
+			}
+		],
+		"stateMutability": "view",
+		"type": "function"
+	}
+]
